@@ -1,0 +1,156 @@
+.projects-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.project-card {
+  position: relative;
+}
+
+.project-header {
+  margin-bottom: 1.5rem;
+}
+
+.project-name {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 0.5rem;
+}
+
+.project-subtitle {
+  font-size: 1.1rem;
+  color: var(--accent-light);
+  margin-bottom: 0.75rem;
+  font-weight: 500;
+}
+
+.project-meta {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.project-type {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  font-weight: 500;
+}
+
+.project-partner {
+  font-size: 0.9rem;
+  color: var(--success);
+  font-weight: 500;
+}
+
+.project-description {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: var(--text-secondary);
+  margin-bottom: 2rem;
+}
+
+.project-section {
+  margin-bottom: 1.5rem;
+}
+
+.project-section-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 0.75rem;
+}
+
+.project-highlights,
+.project-impact {
+  list-style: none;
+  padding: 0;
+}
+
+.project-highlights li,
+.project-impact li {
+  position: relative;
+  padding-left: 1.5rem;
+  margin-bottom: 0.75rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
+}
+
+.project-highlights li::before {
+  content: '▹';
+  position: absolute;
+  left: 0;
+  color: var(--accent-light);
+  font-weight: bold;
+}
+
+.project-impact li::before {
+  content: '✓';
+  position: absolute;
+  left: 0;
+  color: var(--success);
+  font-weight: bold;
+}
+
+.project-tech {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 2rem 0 1.5rem 0;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--border);
+}
+
+.btn-github {
+  margin-top: 1rem;
+}
+
+.hardware-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.project-impact-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.impact-badge {
+  display: inline-block;
+  padding: 0.4rem 0.9rem;
+  background: rgba(16, 185, 129, 0.1);
+  color: var(--success);
+  border-radius: 6px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  border: 1px solid rgba(16, 185, 129, 0.2);
+}
+
+.project-highlight-box {
+  padding: 1rem 1.25rem;
+  background: rgba(79, 70, 229, 0.1);
+  border-left: 3px solid var(--accent);
+  border-radius: 6px;
+  margin: 1.5rem 0;
+  color: var(--text-secondary);
+  line-height: 1.6;
+}
+
+.project-highlight-box strong {
+  color: var(--accent-light);
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .project-name {
+    font-size: 1.5rem;
+  }
+
+  .project-subtitle {
+    font-size: 1rem;
+  }
+}
