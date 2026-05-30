@@ -1,6 +1,5 @@
 # Aarav Chauhan - Portfolio
-### Created as part of an assignment by InAmigos Foundation.
----
+
 A modern, premium React-based portfolio showcasing projects, skills, and experience in Data Science, AI Systems, and Defence Technologies.
 
 ## https://aarav-chauhan-portfolio.netlify.app/
