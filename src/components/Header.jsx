@@ -36,6 +36,9 @@ const Header = () => {
             </a>
           </div>
         </div>
+        <div className="profile-image">
+          <img src="/profile.jpeg" alt="Aarav Chauhan" />
+        </div>
       </div>
     </header>
   );
